@@ -14,7 +14,7 @@ int main()
 	cin >> Range;
 	srand(time(NULL));
 
-	for (int i = 0; i < Num; i += 1)
+	for (int i = 0; i < Num; ++i)
 	{
 		int rng = (rand()%Range) + 1;
 		cout << rng << ", ";
