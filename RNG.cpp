@@ -17,7 +17,7 @@ int main()
 	for (int i = 0; i < Num; i += 1)
 	{
 		int rng = (rand()%Range) + 1;
-		cout << rng << endl;
+		cout << rng << ", ";
 	}
 
 	system("PAUSE");
